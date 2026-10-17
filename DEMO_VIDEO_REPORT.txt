@@ -1,0 +1,334 @@
+================================================================================
+                    GRAPHGUARD AI — DEMO VIDEO REPORT & SCRIPT
+       Track 1: Agents That Act on Connected Data | FalkorDB Hackathon
+================================================================================
+
+PROJECT NAME:    GraphGuard AI (FalkorDB Autonomous Security Agent)
+LIVE DEMO URL:   https://falkordbtrack1.vercel.app
+TARGET DURATION: 4 to 5 Minutes
+VIDEO RESOLUTION: 1080p (1920x1080) or 2K (2560x1440) recommended
+AUDIENCE:        FalkorDB Hackathon Judges, Security Engineers, AI Graph Developers
+
+--------------------------------------------------------------------------------
+1. EXECUTIVE SUMMARY & VIDEO OBJECTIVES
+--------------------------------------------------------------------------------
+This document provides a turnkey, timestamped script, visual stage directions, 
+voiceover lines, and demonstration workflows for recording a winning demonstration 
+video for FalkorDB Hackathon Track 1.
+
+Key Selling Points to Demonstrate in the Video:
+  1. Connected Data Agent: The agent doesn't guess; it explores graph topologies
+     using Cypher queries across users, IPs, devices, sessions, and servers.
+  2. Model Context Protocol (MCP): 8 standardized MCP tools allow the agent
+     to dynamically query FalkorDB graph context on-demand.
+  3. Adaptive Multi-Hop Traversal: The agent begins at 3 hops, evaluates evidence
+     sufficiency, expands to 5 hops if inconclusive, and continues to 8 hops
+     if a threat trail leads to critical crown-jewel infrastructure.
+  4. Deterministic 8-Factor Risk Scoring: Mathematical, explainable risk calculation
+     grounded in verified graph facts—eliminating LLM hallucination.
+  5. Counterfactual "What-If" Engine: Read-only simulation testing hypothetical 
+     risk reductions without mutating the production database.
+  6. Human-in-the-Loop Governance: Tiered autonomous policy actions backed by
+     human analyst sign-off and an append-only SOC audit log.
+  7. Production Ready & Live Deployed: Full-stack FastAPI + React app running live
+     on Vercel with 11/11 automated tests passing.
+
+--------------------------------------------------------------------------------
+2. PRE-RECORDING CHECKLIST
+--------------------------------------------------------------------------------
+[ ] Browser Setup:
+    - Open Chrome / Edge in Fullscreen (F11 or clean tabs).
+    - Navigate to: https://falkordbtrack1.vercel.app
+    - Zoom set to 100% or 90% for optimal layout balance.
+    - Dark mode confirmed (sleek cyber defense UI).
+[ ] Audio Setup:
+    - Clear microphone input, noise suppression enabled.
+    - Enthusiastic, confident, and professional pacing (~130 words per minute).
+[ ] Tab State:
+    - Have https://falkordbtrack1.vercel.app/api/health tested beforehand.
+    - Ready alerts: ALT001 (Unauthorized Lateral Movement) as primary showcase.
+[ ] Backup Option:
+    - Local backend running on localhost:8000 and localhost:5173 as a fallback.
+
+================================================================================
+3. TIMESTAMPE SCENE-BY-SCENE DEMO SCRIPT
+================================================================================
+
+--------------------------------------------------------------------------------
+SCENE 1: THE HOOK & THE CONNECTED DATA PROBLEM (0:00 – 0:40)
+--------------------------------------------------------------------------------
+VISUAL ON SCREEN:
+- Open browser on the GraphGuard AI Dashboard (https://falkordbtrack1.vercel.app).
+- The dark-themed interface displays the active alert banner, radial Cytoscape
+  knowledge graph canvas, risk gauges, and MCP tool status indicator.
+
+VOICEOVER / SCRIPT:
+"Welcome to GraphGuard AI, an autonomous cyber-fraud investigation agent built 
+specifically for FalkorDB Hackathon Track 1: Agents That Act on Connected Data.
+
+Modern Security Operations Centers drown in thousands of daily alerts. Traditional 
+SIEM and vector search tools look at logs in isolation, completely missing the 
+multi-step lateral movement that attackers use to breach critical systems. 
+
+GraphGuard AI solves this by deploying an autonomous agent that acts directly on 
+connected data stored in FalkorDB. Equipped with Model Context Protocol tools, 
+it traverses complex relationship paths, evaluates graph evidence in real time, 
+and delivers mathematically explainable verdicts."
+
+ACTIONS ON SCREEN:
+- Hover mouse over the "FalkorDB Status: Healthy" pill in the top header.
+- Highlight the "8 MCP Tools Active" badge.
+- Point to the radial graph displaying interconnected Users, Devices, and Servers.
+
+--------------------------------------------------------------------------------
+SCENE 2: ADAPTIVE MULTI-HOP INVESTIGATION IN ACTION (0:40 – 1:45)
+--------------------------------------------------------------------------------
+VISUAL ON SCREEN:
+- Click the "New Investigation" navigation tab on the left sidebar.
+- The New Investigation screen appears with alert selector, hop settings,
+  and query budget sliders.
+
+VOICEOVER / SCRIPT:
+"Let's see the agent in action. Rather than statically hardcoding hop limits, 
+GraphGuard implements adaptive multi-hop traversal. 
+
+The investigation begins at 3 hops. It evaluates the collected evidence. If 
+evidence is insufficient or contradictory, it expands to 5 hops. If a suspicious 
+trail continues toward critical servers, it traverses all the way to 7 or 8 hops, 
+stopping automatically when sufficient evidence is verified or the query budget 
+is met.
+
+Let's investigate alert ALT001: 'Unauthorized Lateral Movement via Tor Exit Node'.
+We configure initial hops to 3, intermediate to 5, and max hops to 8 with adaptive 
+traversal enabled."
+
+ACTIONS ON SCREEN:
+- In the Alert Selector, choose "ALT001 - Lateral Movement to Crown-Jewel Server".
+- Toggle the "Adaptive Hop Traversal" switch to ON.
+- Show the visual hop progression indicator: [Initial: 3] -> [Intermediate: 5] -> [Deep: 8].
+- Click the blue "Launch Autonomous Investigation" button.
+- As the investigation runs, point out the live activity stream:
+  * Formulating investigation hypothesis...
+  * Invoking MCP tool: get_investigation_context...
+  * Invoking MCP tool: explore_subgraph (3 hops)...
+  * Evaluating evidence sufficiency: Anonymized IP detected, expanding to 5 hops...
+  * Invoking MCP tool: find_paths_to_sensitive_nodes (Crown-Jewel reached!)...
+  * Computing 8-factor deterministic risk score...
+
+VOICEOVER / SCRIPT (CONTINUED):
+"Notice what just happened in under 3 seconds:
+The agent started at 3 hops, recognized that user USR-1042 was accessing resources 
+from a high-risk Tor exit node, adaptively expanded to 5 hops to trace device 
+telemetry, and discovered a lateral authentication edge into 'SRV-CROWN-PROD'—our 
+most sensitive crown-jewel production server. It reached 91.5% critical risk and 
+recommended an immediate ESCALATE policy."
+
+--------------------------------------------------------------------------------
+SCENE 3: INTERACTIVE GRAPH EXPLORER & CYPHER CONSOLE (1:45 – 2:40)
+--------------------------------------------------------------------------------
+VISUAL ON SCREEN:
+- Click the "Graph Explorer" navigation tab on the left sidebar.
+- The full-screen interactive Cytoscape canvas and Cypher query console load.
+
+VOICEOVER / SCRIPT:
+"To inspect the underlying connected topology, we switch to the Graph Explorer.
+GraphGuard gives SOC analysts full graph observability powered by FalkorDB Cypher.
+
+We can run live Cypher queries directly against the graph database. For example, 
+let's inspect the 2-hop neighborhood around our suspicious user."
+
+ACTIONS ON SCREEN:
+- Click on one of the quick Cypher presets: "Alerts & Crown Jewel Assets".
+- The query fills the console:
+  `MATCH (a:Alert)-[r]->(n) RETURN a, r, n LIMIT 25`
+- Click "Run Cypher Query".
+- The graph animates, rendering the updated subgraph elements.
+- Filter entities by clicking the "SERVER" pill, then the "IPADDRESS" pill.
+- Click on the center node (User `USR-1042`) or Server (`SRV-CROWN-PROD`).
+- The slide-out Node Inspector Drawer glides in from the right, showing:
+  * Entity ID: `SRV-CROWN-PROD`
+  * Sensitivity: `CRITICAL`
+  * Environment: `Production`
+  * Connected Inbound Hops: 3
+- Toggle the view mode button from "Graph Canvas" to "Data Table" to showcase 
+  tabular tabular property inspection.
+
+VOICEOVER / SCRIPT (CONTINUED):
+"Every node and edge is fully inspectable—properties like threat intelligence 
+scores, MDM enrollment, and UTC login timestamps are grounded in the FalkorDB 
+graph model."
+
+--------------------------------------------------------------------------------
+SCENE 4: EXPLAINABLE RISK ENGINE & WHAT-IF SIMULATOR (2:40 – 3:35)
+--------------------------------------------------------------------------------
+VISUAL ON SCREEN:
+- Click the "Report Generator" navigation tab on the left sidebar.
+- The Report Generator displays the Executive Verdict, 8-Factor Score Card,
+  and Counterfactual Simulation lab.
+
+VOICEOVER / SCRIPT:
+"Now let's examine the Report Generator. Unlike opaque black-box LLMs that make up 
+hallucinated risk numbers, GraphGuard calculates a deterministic, 8-factor 
+weighted risk score grounded in FalkorDB topology:
+- IP Threat Reputation (weight 25%)
+- Tor or VPN Usage (weight 15%)
+- Off-Hours Authentication (weight 15%)
+- Missing MFA (weight 15%)
+- Unmanaged Device (weight 10%)
+- Anomaly Score (weight 10%)
+- Sensitive Target Server (weight 5%)
+- Failed Login Spikes (weight 5%)
+
+All weights sum strictly to 1.0. 
+
+Even more powerful is our Counterfactual 'What-If' Simulator. Security analysts 
+frequently ask: 'What if this user had actually used MFA?' or 'What if the IP 
+wasn't a Tor exit node?'"
+
+ACTIONS ON SCREEN:
+- Scroll down to the "Counterfactual 'What-If' Simulation" card.
+- In the dropdown, select factor: "tor_or_vpn (Anonymization Proxy)".
+- Click the "Simulate Removal" button.
+- Point out the instant calculation:
+  * Original Risk Score: 91.55%
+  * Simulated Risk Score: 76.55% (Delta: -15.0%)
+  * Policy Impact: Remains ESCALATE due to compromised unmanaged device and sensitive target server.
+- Click "Download Markdown Audit Report". Show the generated `.md` file.
+- Click "Export JSON Evidence Ledger" to demonstrate machine-readable SIEM export.
+
+VOICEOVER / SCRIPT (CONTINUED):
+"Notice that this counterfactual simulation is completely read-only—it tests 
+hypothetical risk reductions in memory without mutating the underlying graph."
+
+--------------------------------------------------------------------------------
+SCENE 5: HUMAN-IN-THE-LOOP GOVERNANCE & AUDIT TRAIL (3:35 – 4:20)
+--------------------------------------------------------------------------------
+VISUAL ON SCREEN:
+- Scroll down on the Report Generator page to the "Human-in-the-Loop Governance"
+  and "SOC Audit Log" sections.
+
+VOICEOVER / SCRIPT:
+"Autonomous AI cannot operate without enterprise governance. High-consequence 
+remediation actions—like isolating production servers or revoking executive 
+credentials—must remain governed by human operators.
+
+GraphGuard proposes containment actions based on policy tiers:
+- Low risk (<0.40): LOG and MONITOR.
+- Medium risk (0.40–0.70): STEP-UP MFA.
+- High risk (>0.70): ESCALATE and CONTAIN.
+
+Here, the agent proposes isolating the compromised IP and quarantining the user 
+session. As the Lead SOC Analyst, I can review the verified graph evidence and 
+either approve or reject the action."
+
+ACTIONS ON SCREEN:
+- In the Governance Sign-Off box:
+  * Analyst Name: "Lead SOC Analyst"
+  * Action Decision: Select "APPROVE CONTAINMENT"
+  * Notes: "Confirmed lateral movement to SRV-CROWN-PROD via FalkorDB graph."
+- Click "Submit Governance Sign-Off".
+- An approval banner appears: "Action APPROVED and written to immutable audit trail."
+- Scroll down to the "Append-Only SOC Audit Trail" table.
+- Show the newly appended entry with timestamp, analyst name, and action ID.
+
+VOICEOVER / SCRIPT (CONTINUED):
+"The decision is instantly written to an append-only audit trail, ensuring complete 
+regulatory compliance and forensic accountability."
+
+--------------------------------------------------------------------------------
+SCENE 6: SYSTEM SETTINGS & PRODUCTION ARCHITECTURE (4:20 – 4:45)
+--------------------------------------------------------------------------------
+VISUAL ON SCREEN:
+- Click the "Settings" navigation tab on the left sidebar.
+- Display the configuration options: Traversal Parameters, FalkorDB Connection,
+  Model Selection, and Factor Weight Matrix.
+
+VOICEOVER / SCRIPT:
+"Finally, the Settings view allows SOC managers to fine-tune the agent's brain:
+- Adjusting initial, intermediate, and deep hop boundaries.
+- Pinging live FalkorDB instances with automatic zero-config fallback.
+- Selecting agent LLM models (GPT-4o or deterministic graph logic).
+- Customizing the 8-factor risk weights.
+
+The entire application is deployed live in production on Vercel at 
+falkordbtrack1.vercel.app, backed by 11 passing automated test suites covering 
+data ingestion, MCP tool integration, and autonomous investigation loops."
+
+ACTIONS ON SCREEN:
+- Click the "Ping Database" button to show live latency check.
+- Briefly show the test coverage badge or terminal showing `11 passed in 16.66s`.
+
+--------------------------------------------------------------------------------
+SCENE 7: CONCLUSION & SUMMARY (4:45 – 5:00)
+--------------------------------------------------------------------------------
+VISUAL ON SCREEN:
+- Navigate back to the main Dashboard view (`App.jsx`).
+- The full incident graph, risk gauge, and evidence timeline are visible.
+
+VOICEOVER / SCRIPT:
+"GraphGuard AI demonstrates the true power of FalkorDB: transforming complex 
+security telemetry into an interconnected knowledge graph where autonomous AI 
+agents can reason, adapt, and act with speed, precision, and explainability.
+
+Thank you for watching, and try it live at falkordbtrack1.vercel.app!"
+
+================================================================================
+4. QUICK DEMO CHEAT SHEET (DURING RECORDING)
+================================================================================
+
+A. LIVE URLS:
+   - Dashboard:            https://falkordbtrack1.vercel.app
+   - Health API:           https://falkordbtrack1.vercel.app/api/health
+   - Alerts API:           https://falkordbtrack1.vercel.app/api/alerts
+   - Audit Log API:        https://falkordbtrack1.vercel.app/api/audit-log
+
+B. KEY SCENARIO PRESETS:
+   - ALT001: Lateral Movement to Crown-Jewel Server (91.5% Risk, ESCALATE)
+             [User USR-1042 -> Tor IP -> Unmanaged Device -> SRV-CROWN-PROD]
+   - ALT002: Off-Hours Privilege Escalation (78.0% Risk, ESCALATE)
+   - ALT003: Multi-Account Shared Device Fraud Ring (82.5% Risk, ESCALATE)
+   - ACC-1042: Custom Account Investigation (Live Graph Traversal)
+
+C. CYPHER CONSOLE PRESET QUERIES:
+   1. All Alerts and Targets:
+      MATCH (a:Alert)-[r]->(n) RETURN a, r, n LIMIT 25
+   2. Path to Critical Crown Jewel:
+      MATCH p = (u:User)-[*1..4]->(s:Server {sensitivity: 'critical'}) RETURN p LIMIT 10
+   3. Tor & VPN Anonymizer Nodes:
+      MATCH (ip:IPAddress) WHERE ip.is_tor = true OR ip.is_vpn = true RETURN ip
+
+D. 8-FACTOR RISK WEIGHTS (Ground Truth):
+   - ip_reputation:       25%  (0.25)
+   - tor_or_vpn:          15%  (0.15)
+   - off_hours_login:     15%  (0.15)
+   - no_mfa:              15%  (0.15)
+   - unmanaged_device:    10%  (0.10)
+   - high_anomaly_score:  10%  (0.10)
+   - sensitive_server:     5%  (0.05)
+   - failed_login_spike:   5%  (0.05)
+   Total:                100%  (1.00)
+
+E. ADAPTIVE HOP RULES:
+   - Stage 1 (Initial):      3 Hops
+   - Stage 2 (Intermediate): 5 Hops (if evidence < threshold or proxy detected)
+   - Stage 3 (Deep):         8 Hops (if critical server path detected)
+   - Query Budget:           15–20 Tool calls maximum
+
+================================================================================
+5. HACKATHON JUDGING ALIGNMENT
+================================================================================
+When recording, keep these criteria in mind:
+
+1. AGENTS THAT ACT ON CONNECTED DATA (Track 1 Focus):
+   - Show that the agent doesn't just do text search; it queries multi-hop graph
+     relationships that are impossible with flat tables.
+2. TECHNICAL ARCHITECTURE & MCP INTEGRATION:
+   - Highlight the 8 Model Context Protocol tools in backend/mcp_server/tools.py.
+3. EXPLAINABILITY & TRUST:
+   - Emphasize the deterministic 8-factor score, Markdown export, and What-If simulator.
+4. POLISH & EXECUTION:
+   - Dark mode SOC theme, Cytoscape graph canvas, real-time feedback, and live Vercel deployment.
+
+================================================================================
+                         END OF DEMO VIDEO REPORT
+================================================================================

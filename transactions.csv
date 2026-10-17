@@ -1,0 +1,11 @@
+transaction_id,from_account,to_account,amount,currency,timestamp,payment_method,status,risk_score,is_cross_border
+TXN-9011,ACC-2051,ACC-1042,3500.00,USD,2025-04-15T10:24:00Z,wire_transfer,completed,0.65,false
+TXN-9012,ACC-1042,MER-4521,3500.00,USD,2025-04-15T11:45:00Z,offshore_card,completed,0.88,true
+TXN-9013,ACC-2051,ACC-3090,3500.00,USD,2025-04-15T14:37:00Z,ach_transfer,completed,0.58,false
+TXN-9014,ACC-3090,ACC-1042,3500.00,USD,2025-04-16T09:12:00Z,internal_ledger,completed,0.72,false
+TXN-9015,ACC-1042,ACC-4012,2400.00,USD,2025-04-16T11:20:00Z,wire_transfer,completed,0.55,false
+TXN-9016,ACC-1042,ACC-5077,1850.00,USD,2025-04-16T13:45:00Z,p2p_transfer,completed,0.60,false
+TXN-9017,ACC-6018,ACC-1042,5000.00,USD,2025-04-16T15:10:00Z,wire_transfer,completed,0.59,false
+TXN-9018,ACC-1042,MER-4521,4800.00,USD,2025-04-16T16:05:00Z,merchant_gateway,flagged,0.92,true
+TXN-9019,ACC-7001,ACC-7002,120.00,USD,2025-04-17T09:00:00Z,internal_transfer,completed,0.05,false
+TXN-9020,ACC-7003,ACC-1042,9500.00,USD,2025-04-17T02:15:00Z,crypto_bridge,blocked,0.98,true

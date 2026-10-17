@@ -1,0 +1,11 @@
+account_id,account_holder,account_type,balance,currency,status,risk_tier,opened_date,associated_user_id
+ACC-1042,Apex Global Consulting,business_checking,142500.00,USD,flagged,high,2024-03-15,U001
+ACC-2051,Elena Rostova,personal_checking,34800.50,USD,active,medium,2023-11-20,U002
+ACC-3090,Boreal Import Export Ltd,commercial_escrow,892000.00,USD,active,medium,2022-07-04,U003
+ACC-4012,Marcus Vance,personal_savings,12500.00,USD,active,medium,2024-01-18,U003
+ACC-5077,Dan Torres,personal_checking,8400.00,USD,active,medium,2021-09-10,U005
+ACC-6018,Starlight Digital Media,corporate_clearing,210000.00,USD,active,medium,2023-04-12,U004
+MER-4521,Valletta Merchant Gateway,merchant_processing,1540000.00,EUR,monitored,high,2020-02-28,U006
+ACC-7001,Alice Chen,payroll_direct,18500.00,USD,active,low,2021-05-14,U001
+ACC-7002,Bob Martin,personal_checking,9200.00,USD,active,low,2022-08-22,U002
+ACC-7003,Ghost Directory Trust,dormant_trust,450.00,USD,suspended,critical,2019-12-01,U004

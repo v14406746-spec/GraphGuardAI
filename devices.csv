@@ -1,0 +1,11 @@
+device_id,hostname,os,is_managed,imei_or_mac,last_seen,risk_level,registered_user_id
+DEV-7781,dev-7781-mobile,iOS 18.2,false,35-492010-884910-1,2025-04-15T09:15:00Z,medium,U001
+DEV-9920,dev-9920-tablet,Android 15,false,86-720104-992015-4,2025-04-15T14:37:00Z,medium,U003
+DEV001,unknown-device-xf9,Windows 10,false,00:1A:2B:3C:4D:5E,2026-10-14T02:17:00Z,high,U001
+DEV002,bob-laptop-corp,macOS 14,true,A1:B2:C3:D4:E5:F6,2026-10-14T10:05:00Z,low,U002
+DEV003,carol-home-pc,Windows 11,false,12:34:56:78:9A:BC,2026-10-14T19:30:00Z,medium,U003
+DEV004,unknown-kali-box,Kali Linux 2026,false,DE:AD:BE:EF:CA:FE,2026-10-14T03:45:00Z,critical,U005
+DEV005,dan-workstation-it,Ubuntu 24.04,true,44:55:66:77:88:99,2026-10-14T09:00:00Z,low,U005
+DEV-4012,marcus-macbook,macOS 15,true,F0:DE:F1:A2:B3:C4,2025-04-16T11:20:00Z,low,U003
+DEV-6018,starlight-gateway,Debian 12,false,52:54:00:12:34:56,2025-04-16T15:10:00Z,medium,U004
+DEV-4521,valletta-pos-term,Embedded Linux,false,98:76:54:32:10:FE,2025-04-15T11:45:00Z,high,U006

@@ -1,0 +1,11 @@
+event_id,user_id,timestamp,ip_address,device_id,status,mfa_used,anomaly_score,is_vpn,is_tor
+LE-1042-1,U001,2025-04-15T09:15:00Z,203.0.113.5,DEV-7781,success,false,0.78,true,false
+LE-1042-2,U003,2025-04-15T14:37:00Z,203.0.113.5,DEV-9920,success,false,0.84,true,false
+LE001,U001,2026-10-14T02:17:00Z,185.220.101.45,DEV001,success,false,0.88,true,true
+LE002,U002,2026-10-14T10:05:00Z,10.0.4.15,DEV002,success,true,0.05,false,false
+LE003,U003,2026-10-14T19:30:00Z,74.125.200.10,DEV003,success,true,0.52,true,false
+LE004,U005,2026-10-14T03:45:00Z,185.220.101.99,DEV004,success,false,0.82,true,true
+LE-3090,U003,2025-04-16T09:10:00Z,198.51.100.22,DEV-9920,success,true,0.62,false,false
+LE-6018,U004,2025-04-16T15:05:00Z,192.0.2.78,DEV-6018,success,false,0.59,false,false
+LE-4521,U006,2025-04-15T11:40:00Z,45.33.32.156,DEV-4521,success,true,0.28,false,false
+LE-7003,U004,2025-04-17T02:10:00Z,185.220.101.99,DEV004,failed,false,0.95,true,true

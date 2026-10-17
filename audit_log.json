@@ -1,0 +1,192 @@
+[
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-1ffbfb60",
+    "alert_id": "ALT001",
+    "risk_score": 0.0,
+    "risk_label": "LOW",
+    "policy_action": "MONITOR",
+    "elapsed_seconds": 0.001,
+    "timestamp": "2026-10-16T05:25:12Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-da1bd1cb",
+    "alert_id": "ALT001",
+    "risk_score": 0.0,
+    "risk_label": "LOW",
+    "policy_action": "MONITOR",
+    "elapsed_seconds": 0.001,
+    "timestamp": "2026-10-16T05:41:28Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-7eea53cb",
+    "alert_id": "ALT001",
+    "risk_score": 0.0,
+    "risk_label": "LOW",
+    "policy_action": "MONITOR",
+    "elapsed_seconds": 0.003,
+    "timestamp": "2026-10-16T05:55:44Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-3ebd30ef",
+    "alert_id": "ALT001",
+    "risk_score": 0.9155,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 0.002,
+    "timestamp": "2026-10-16T05:59:25Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-2f1f39f5",
+    "alert_id": "ALT001",
+    "risk_score": 0.9155,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 0.003,
+    "timestamp": "2026-10-16T06:00:09Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-e3f8892c",
+    "alert_id": "ALT001",
+    "risk_score": 0.9155,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 0.003,
+    "timestamp": "2026-10-16T06:00:46Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-cfd31e7c",
+    "alert_id": "ALT001",
+    "risk_score": 0.9155,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 0.003,
+    "timestamp": "2026-10-16T06:02:47Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-60ee5bc8",
+    "alert_id": "ALT001",
+    "risk_score": 0.9155,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 4.228,
+    "timestamp": "2026-10-16T06:18:37Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-ac875fc0",
+    "alert_id": "ALT002",
+    "risk_score": 0.01,
+    "risk_label": "LOW",
+    "policy_action": "MONITOR",
+    "elapsed_seconds": 0.002,
+    "timestamp": "2026-10-16T06:24:58Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-66066725",
+    "alert_id": "ALT001",
+    "risk_score": 0.9155,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 0.003,
+    "timestamp": "2026-10-16T06:31:51Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-e72d68e3",
+    "alert_id": "ALT001",
+    "risk_score": 0.9155,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 0.002,
+    "timestamp": "2026-10-16T06:59:06Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-40375ca4",
+    "alert_id": "ALT001",
+    "risk_score": 0.9155,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 0.002,
+    "timestamp": "2026-10-16T07:03:59Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-bbc73081",
+    "alert_id": "ALT001",
+    "risk_score": 0.9155,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 4.285,
+    "timestamp": "2026-10-16T07:06:39Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-e3d91271",
+    "alert_id": "ALT005",
+    "risk_score": 0.852,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 0.002,
+    "timestamp": "2026-10-16T07:06:55Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-6ff5aca6",
+    "alert_id": "ALT002",
+    "risk_score": 0.01,
+    "risk_label": "LOW",
+    "policy_action": "MONITOR",
+    "elapsed_seconds": 0.002,
+    "timestamp": "2026-10-16T07:07:03Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-45829c91",
+    "alert_id": "ALT001",
+    "risk_score": 0.9155,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 0.002,
+    "timestamp": "2026-10-16T07:16:00Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-3e9d415d",
+    "alert_id": "ALT001",
+    "risk_score": 0.9155,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 0.003,
+    "timestamp": "2026-10-16T07:17:24Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-8b77c3cb",
+    "alert_id": "ALT001",
+    "risk_score": 0.9155,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 0.002,
+    "timestamp": "2026-10-17T07:15:52Z"
+  },
+  {
+    "event": "INVESTIGATION_COMPLETED",
+    "investigation_id": "inv-826574de",
+    "alert_id": "ALT001",
+    "risk_score": 0.9155,
+    "risk_label": "CRITICAL",
+    "policy_action": "ESCALATE",
+    "elapsed_seconds": 0.002,
+    "timestamp": "2026-10-17T08:19:03Z"
+  }
+]

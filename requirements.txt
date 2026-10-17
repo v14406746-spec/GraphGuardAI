@@ -1,0 +1,15 @@
+# FalkorDB Hackathon Track 1: Agents That Act on Connected Data
+# Core Dependencies
+falkordb>=1.0.8
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+python-dotenv>=1.0.1
+httpx>=0.27.0
+pytest>=8.0.0
+
+# Model Context Protocol (MCP) Server
+mcp>=2.3.0
+
+# Optional LLM integration
+openai>=1.14.0
